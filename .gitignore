@@ -13,6 +13,7 @@ terraform/*.tfstate
 terraform/*.tfvars
 terraform/*.tfstate.backup
 terraform/crash.log
+terraform/tfplan
 
 # ansible
 *.retry
