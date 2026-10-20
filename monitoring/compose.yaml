@@ -30,7 +30,7 @@ services:
       - "9374:9374"
     command:
       - "--web.listen-address=:9374"
-      - "--ping.interval=60s"
+      - "--ping.interval=15s"
       - "192.168.20.1"
       - "10.124.184.73"
       - "195.116.35.90"
